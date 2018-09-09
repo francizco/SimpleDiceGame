@@ -1,4 +1,4 @@
-# LHBMatching
+# SimpleDiceGame
 
 This is a simple dice game that uses a 5-sided die. There are numerous ways of scoring for this game, but two specific methods.
 
