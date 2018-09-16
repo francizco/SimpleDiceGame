@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SimpleDiceGame
 {
-    class Dice
+    public class Dice : IDice
     {
         private int faces;
         private int quantity;
@@ -30,9 +30,9 @@ namespace SimpleDiceGame
         }
 
         // Single roll of a single die
-        public int Roll
+        public int Roll()
         {
-            get { return rand.Next(1, faces + 1); }
+            return rand.Next(1, faces + 1);
         }
 
         // Roll all dice and return list of results
